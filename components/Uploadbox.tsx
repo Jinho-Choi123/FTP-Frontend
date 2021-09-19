@@ -36,7 +36,7 @@ const Uploadbox: NextPage = () => {
             url:'http://localhost:8000/fileupload/',
             data: req,
         })
-        .then((res)=> {
+        .then((res: AxiosResponse)=> {
             console.log(res.data.gid)
             setGid(res.data.gid)
             setExpiredtime(res.data.expiredtime)

@@ -3,7 +3,9 @@
 }
 
 #sidebar {
-    width: 10%;
+    width: 10vw;
     height: 100vh;
     background-color: rgb(105, 233, 163);
+    margin: 0;
+    padding: 0;
 }
