@@ -1,0 +1,9 @@
+.navlist {
+    list-style: none;
+}
+
+#sidebar {
+    width: 10%;
+    height: 100vh;
+    background-color: rgb(105, 233, 163);
+}
